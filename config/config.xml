@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <globals>
+        <global name="BASE_URL" value="http://localhost/lol" />
+    </globals>
+    <classes>
+        <class name="IAction" path="model/IAction.php" />
+        <class name="TestModel" path="model/TestModel.php" />
+    </classes>
+    <actions>
+        <action name="TestAction" path="action/TestAction.php" />
+    </actions>
+</config>
